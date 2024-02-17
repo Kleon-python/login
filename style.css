@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;    
+    background-image: url(https://i.pinimg.com/originals/76/51/10/7651104612a3eb2e0786a794560c10ac.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#login {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(20, 20, 20);
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.pa {
+    font-size: 30px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 25px;
+    height: 48px;
+    font-size: 23px;
+    width: 100%;
+}
+
+.pa:focus {
+    outline: none;
+    border-bottom: 2.3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+#submitt{
+    outline: none;
+    border-radius: 25px;
+    border: 0px;
+    background-color: rgb(0, 132, 255);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    color: white;
+    font-size: 160%;
+    transition: 1s ease;
+}
+#submitt:focus {
+    transform: scale(0.7);
+    
+}
+
+input, h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.container {
+    width: 370px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.password-toggle {
+    position: relative;
+    display: inline-block;
+}
+
+.password-toggle i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+#togglePassword {
+    width: 100px;
+    height: 100px;
+}
+
+.eye {
+    
+    width: 20px;
+    background-repeat: no-repeat;
+    height: auto;    
+    cursor: pointer;
+}
+
+.eye-con, .eye-con::before {
+    position: absolute;
+    top: 245px;
+    left: 380px;
+}
